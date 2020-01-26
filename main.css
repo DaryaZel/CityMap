@@ -1,0 +1,21 @@
+body {
+    margin: 20px auto;
+    max-width: 1020px;
+    background-color:#c9e2f8;   
+}
+.enter-wrapper{
+margin-bottom: 20px;
+}
+.search-wrapper{
+    display: inline;
+}
+#allStates, #my_dataviz, .directions-wrapper{
+    text-align: center;
+}
+.directions-wrapper div{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+

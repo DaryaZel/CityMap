@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+    <div class="search-wrapper">
+        <input id="searchState" type="text" placeholder="Enter State">
+        <button id="search">Search</button>
+        <h2 id="searchCity">Search cities: . . .</h2>
+    </div>
+    <div class="enter-wrapper">
+        <input id="cityName" type="text" placeholder="City Name">
+        <input id="state" type="text" placeholder="State">
+        <input id="latitude" type="text" placeholder="Latitude">
+        <input id="longitude" type="text" placeholder="Longitude">
+        <button id="addCity">Enter</button>
+    </div>
+    <h2 id="allStates"></h2>
+    <div id="my_dataviz"></div>
+    <div class="directions-wrapper">
+        <h2 id="northernmost"></h2>
+        <div>
+            <h2 id="westernmost"></h2>
+            <img src="directions.png" alt="pic">
+            <h2 id="easternmost"></h2>
+        </div>
+        <h2 id="southernmost"></h2>
+    </div>
+    <h2 id="nearestCity"></h2>
+</body>
+<script src="https://d3js.org/d3.v4.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="main.js"></script>
+</html>
